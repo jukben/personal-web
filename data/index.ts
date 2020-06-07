@@ -1,0 +1,53 @@
+export const socials = [
+  { title: "Twitter", link: "https://twitter.com/jukben" },
+  {
+    title: "GitHub",
+    link: "https://github.com/jukben",
+  },
+  {
+    title: "CodePen",
+    link: "https://codepen.io/jukben/",
+  },
+  {
+    title: "LinkedIn",
+    link: "https://www.linkedin.com/in/jukben/",
+  },
+  {
+    title: "Medium",
+    link: "https://medium.com/@jukben",
+  },
+  {
+    title: "Stack Overflow",
+    link: "https://stackoverflow.com/users/2719917/jukben",
+  },
+];
+
+export const articles = [
+  {
+    title: "continuous delivery / integration for everyone",
+    link:
+      "https://medium.com/call-stack/continuous-delivery-integration-for-everyone-82d596cec680",
+  },
+  {
+    title: "gbck — an easy way how to back up your dotfiles",
+    link:
+      "https://medium.com/@jukben/gbck-an-easy-way-how-to-back-up-your-dotfiles-2a9bf44ab622",
+  },
+  {
+    title: "why you should give a chance to Fish shell",
+    link:
+      "https://medium.com/@jukben/why-you-should-give-a-chance-to-fish-shell-9d48b2de4d81",
+  },
+  {
+    title: "one Yarn to rule them all",
+    link:
+      "https://medium.com/productboard-engineering/one-yarn-to-rule-them-all-2d950127ee6f",
+  },
+];
+
+export const podcasts = [
+  {
+    title: "what it's like being product developer at productboard",
+    link: "https://open.spotify.com/episode/57pmSMy7PeDFmFVgvPDSCc",
+  },
+];
