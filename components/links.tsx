@@ -36,8 +36,18 @@ export const Links = ({ data, title, prefix }: Props) => {
           list-style: none;
         }
 
-        ul > li {
-          @apply py-1;
+        li {
+          @apply py-2;
+        }
+
+        li:first-of-type {
+          @apply pt-0;
+        }
+
+        @screen md {
+          li {
+            @apply py-1;
+          }
         }
 
         a {

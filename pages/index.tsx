@@ -5,6 +5,18 @@ import { articles, podcasts, socials } from "../data";
 const GlobalStyle = () => (
   <>
     <Head>
+      <title>Jakub Beneš</title>
+      <meta
+        name="description"
+        content="Hey! I'm Jakub Beneš, Engineering Manager at productboard, Web
+        Enthusiast and this is my personal website."
+      />
+      <meta
+        name="keywords"
+        content="Jakub Beneš, jukben, frontend, engineering manager"
+      />
+      <meta name="robots" content="index, follow" />
+      <meta name="author" content="Jakub Beneš" />
       <link rel="preload" href="/montserrat-light.ttf" as="font" />
       <link
         rel="apple-touch-icon"
@@ -28,7 +40,7 @@ const GlobalStyle = () => (
     <style global jsx>{`
       body {
         @apply bg-white p-4 m-0;
-        font-family: "Montserrat";
+        font-family: "Montserrat", sans-serif;
       }
 
       @screen md {
@@ -42,6 +54,7 @@ const GlobalStyle = () => (
         src: url("/montserrat-light.ttf");
         font-weight: light;
         font-style: normal;
+        font-display: swap;
       }
     `}</style>
   </>
@@ -53,7 +66,7 @@ export default function Welcome() {
       <GlobalStyle />
       <h1>Jakub Beneš</h1>
       <main>
-        <img src="/me.jpg" />
+        <img src="/me.jpg" alt="Photo of Jakub Benes" />
         <aside>
           <header>
             <p>
