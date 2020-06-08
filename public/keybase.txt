@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/jukben
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jukben.codes
+  * I am jukben (https://keybase.io/jukben) on keybase.
+  * I have a public key ASAndBAaLCQTza86wntvzrFb2leahXxgPRM7hC9-1KNrfwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120abc5297ec3bffcb1fd887afee7e11e312e74b00e74054eaa1fbddbb1a7d74d5c0a",
+      "host": "keybase.io",
+      "kid": "01202774101a2c2413cdaf3ac27b6fceb15bda579a857c603d133b842f7ed4a36b7f0a",
+      "uid": "0751445aeacf0b1de2224f3f4b0efd19",
+      "username": "jukben"
+    },
+    "merkle_root": {
+      "ctime": 1591629839,
+      "hash": "0d8b1afc0477c5b9ae79ec0cf6ebdf44851117da61fb5e2739a105779c24836135bc8ee0fa99826434a7cc414bbf1da899fb5649492f0c950a6e9be8f5a17a3b",
+      "hash_meta": "8938eeb47f71f13a2ba109651ded3a14a0c6a26e78f2895a5462a488488d61a0",
+      "seqno": 16589295
+    },
+    "service": {
+      "entropy": "mGKl+48oQB6TQEcFJayoW+r8",
+      "hostname": "jukben.codes",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1591629863,
+  "expire_in": 504576000,
+  "prev": "d463bfdf715da140528b8530a9f01e7ef2524a1345d9ce5072e94c124f9a7366",
+  "seqno": 22,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgJ3QQGiwkE82vOsJ7b86xW9pXmoV8YD0TO4QvftSja38Kp3BheWxvYWTESpcCFsQg1GO/33FdoUBSi4UwqfAefvJSShNF2c5QculMEk+ac2bEIKwUJnlTZ6dbrxh7pk24bbvYvRJDm/RATe6h7qRlKk02AgHCo3NpZ8RA51J6EQDNqT24CqHCC6XWf149cNsplflNaR+t/wkaLG1pYUSoZ9WMQRe4qFND1sVjp9MzUkVeFYZ0gvPi6O08DahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIIRBiwMx1hWhRsc8yeu5mQ0bg572n/o7WNfUX7sl1UN3o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jukben
+
+==================================================================
