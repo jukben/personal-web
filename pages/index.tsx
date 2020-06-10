@@ -66,12 +66,14 @@ export default function Welcome() {
       <GlobalStyle />
       <h1>Jakub Beneš</h1>
       <main>
-        <img src="/me.jpg" alt="Photo of Jakub Benes" />
+        <div className="🤓">
+          <div className="photo" />
+        </div>
         <aside>
           <header>
             <p>
-              👋 Hey! I'm Jakub Beneš, Engineering Manager at productboard & Web
-              Enthusiast.
+              👋 Hey! I'm Jakub Beneš, Engineering Manager (and web enthusiast)
+              at productboard, based in Prague.
             </p>
             <p>
               In case you have any questions, or simply if you'd like to get in
@@ -98,7 +100,13 @@ export default function Welcome() {
           main {
             @apply flex-row;
           }
+        }
 
+        aside {
+          @apply flex-1;
+        }
+
+        @screen md {
           aside {
             @apply px-4;
           }
@@ -124,18 +132,30 @@ export default function Welcome() {
           }
         }
 
-        img {
-          @apply w-8/12 shadow-2xl rounded-lg;
+        .🤓 {
+          @apply w-8/12;
+        }
+
+        .photo {
+          @apply w-full shadow-2xl rounded-lg bg-contain;
+          background-image: url("/me.jpg");
+          width: 100%;
+        }
+
+        .photo:after {
+          content: "";
+          display: block;
+          padding-bottom: 100%;
         }
 
         @screen md {
-          img {
+          .🤓 {
             @apply w-4/12;
           }
         }
 
         @screen lg {
-          img {
+          .🤓 {
             @apply w-3/12;
           }
         }
