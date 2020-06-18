@@ -89,7 +89,7 @@ export default function Welcome() {
       </main>
       <style jsx>{`
         h1 {
-          display: none;
+          @apply hidden;
         }
 
         main {
@@ -139,12 +139,11 @@ export default function Welcome() {
         .photo {
           @apply w-full shadow-2xl rounded-lg bg-contain;
           background-image: url("/me.jpg");
-          width: 100%;
         }
 
         .photo:after {
+          @apply block;
           content: "";
-          display: block;
           padding-bottom: 100%;
         }
 

@@ -32,8 +32,7 @@ export const Links = ({ data, title, prefix }: Props) => {
         }
 
         ul {
-          @apply m-0 p-0;
-          list-style: none;
+          @apply m-0 p-0 list-none;
         }
 
         li {
