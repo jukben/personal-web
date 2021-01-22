@@ -24,24 +24,29 @@ export const socials = [
 
 export const articles = [
   {
-    title: "continuous delivery / integration for everyone",
+    title: "How we revamped our RFC process at Productboard",
     link:
-      "https://medium.com/call-stack/continuous-delivery-integration-for-everyone-82d596cec680",
+      "https://medium.com/productboard-engineering/how-we-revamped-our-rfc-process-at-productboard-9368819ebe06",
   },
   {
-    title: "gbck — an easy way how to back up your dotfiles",
+    title: "One Yarn to rule them all",
     link:
-      "https://medium.com/@jukben/gbck-an-easy-way-how-to-back-up-your-dotfiles-2a9bf44ab622",
+      "https://medium.com/productboard-engineering/one-yarn-to-rule-them-all-2d950127ee6f",
   },
   {
-    title: "why you should give a chance to Fish shell",
+    title: "Why you should give a chance to Fish shell",
     link:
       "https://medium.com/@jukben/why-you-should-give-a-chance-to-fish-shell-9d48b2de4d81",
   },
   {
-    title: "one Yarn to rule them all",
+    title: "Gbck — an easy way how to back up your dotfiles",
     link:
-      "https://medium.com/productboard-engineering/one-yarn-to-rule-them-all-2d950127ee6f",
+      "https://medium.com/@jukben/gbck-an-easy-way-how-to-back-up-your-dotfiles-2a9bf44ab622",
+  },
+  {
+    title: "Continuous delivery / integration for everyone",
+    link:
+      "https://medium.com/call-stack/continuous-delivery-integration-for-everyone-82d596cec680",
   },
 ];
 

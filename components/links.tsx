@@ -1,7 +1,7 @@
 type Props = {
   title: string;
   data: Array<{ title: string; link: string }>;
-  prefix: string;
+  prefix?: string;
 };
 
 export const Links = ({ data, title, prefix }: Props) => {

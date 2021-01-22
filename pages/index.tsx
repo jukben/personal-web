@@ -82,7 +82,7 @@ export default function Welcome() {
               forward!
             </p>
           </header>
-          <Links title={"I wrote..."} data={articles} prefix={"about"} />
+          <Links title={"I wrote..."} data={articles} />
           <Links title={"I spoke..."} data={podcasts} prefix={"about"} />
           <Links title={"Follow me..."} data={socials} prefix={"on"} />
         </aside>
