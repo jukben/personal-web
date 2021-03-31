@@ -73,7 +73,8 @@ export default function Welcome() {
           <header>
             <p>
               👋 Hey! I'm Jakub Beneš, Engineering Manager (and web enthusiast)
-              at productboard, based in Prague.
+              at <a href="http://productboard.com/">Productboard</a>, based in
+              Prague.
             </p>
             <p>
               In case you have any questions, or simply if you'd like to get in
