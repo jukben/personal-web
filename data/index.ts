@@ -24,6 +24,11 @@ export const socials = [
 
 export const articles = [
   {
+    title: "Scaling monorepo — to infinity and beyond!",
+    link:
+      "https://medium.com/productboard-engineering/scaling-monorepo-to-infinity-and-beyond-79bed3d302b2",
+  },
+  {
     title: "How we revamped our RFC process at Productboard",
     link:
       "https://medium.com/productboard-engineering/how-we-revamped-our-rfc-process-at-productboard-9368819ebe06",
@@ -52,7 +57,7 @@ export const articles = [
 
 export const podcasts = [
   {
-    title: "what it's like being product developer at productboard",
+    title: "People of Productboard – #3 Jakub - Product Developer    ",
     link: "https://open.spotify.com/episode/57pmSMy7PeDFmFVgvPDSCc",
   },
 ];

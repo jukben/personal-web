@@ -82,9 +82,9 @@ export default function Welcome() {
               forward!
             </p>
           </header>
-          <Links title={"I wrote..."} data={articles} />
-          <Links title={"I spoke..."} data={podcasts} prefix={"about"} />
-          <Links title={"Follow me..."} data={socials} prefix={"on"} />
+          <Links title={"Articles"} data={articles} />
+          <Links title={"Podcasts"} data={podcasts} />
+          <Links title={"Follow me"} data={socials} prefix={"on"} />
         </aside>
       </main>
       <style jsx>{`
