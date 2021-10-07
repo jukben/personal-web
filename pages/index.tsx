@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { Links } from "../components/links";
-import { articles, podcasts, socials } from "../data";
+import { articles, podcasts, socials, talks } from "../data";
 
 const GlobalStyle = () => (
   <>
@@ -85,6 +85,7 @@ export default function Welcome() {
             </p>
           </header>
           <Links title={"Articles"} data={articles} />
+          <Links title={"Talks"} data={talks} />
           <Links title={"Podcasts"} data={podcasts} />
           <Links title={"Follow me"} data={socials} prefix={"on"} />
         </aside>

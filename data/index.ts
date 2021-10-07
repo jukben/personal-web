@@ -57,7 +57,14 @@ export const articles = [
 
 export const podcasts = [
   {
-    title: "People of Productboard – #3 Jakub - Product Developer    ",
+    title: "People of Productboard – #3 Jakub - Product Developer",
     link: "https://open.spotify.com/episode/57pmSMy7PeDFmFVgvPDSCc",
+  },
+];
+
+export const talks = [
+  {
+    title: "Fighting chaos in a monorepo",
+    link: "https://www.youtube.com/watch?v=qjcwXQCxQb4",
   },
 ];
